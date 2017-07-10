@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		897BA3DA1F13D5BC00C9729C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897BA3D91F13D5BC00C9729C /* AppDelegate.swift */; };
+		897BA3DC1F13D5BC00C9729C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897BA3DB1F13D5BC00C9729C /* ViewController.swift */; };
+		897BA3DF1F13D5BC00C9729C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 897BA3DD1F13D5BC00C9729C /* Main.storyboard */; };
+		897BA3E11F13D5BC00C9729C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 897BA3E01F13D5BC00C9729C /* Assets.xcassets */; };
+		897BA3E41F13D5BC00C9729C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 897BA3E21F13D5BC00C9729C /* LaunchScreen.storyboard */; };
+		89F0875A1F13D7F300D33E17 /* XDEyeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F087591F13D7F300D33E17 /* XDEyeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		897BA3D61F13D5BC00C9729C /* MinionsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinionsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		897BA3D91F13D5BC00C9729C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		897BA3DB1F13D5BC00C9729C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		897BA3DE1F13D5BC00C9729C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		897BA3E01F13D5BC00C9729C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		897BA3E31F13D5BC00C9729C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		897BA3E51F13D5BC00C9729C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89F087591F13D7F300D33E17 /* XDEyeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XDEyeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		897BA3D31F13D5BB00C9729C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		897BA3CD1F13D5BB00C9729C = {
+			isa = PBXGroup;
+			children = (
+				897BA3D81F13D5BC00C9729C /* MinionsDemo */,
+				897BA3D71F13D5BC00C9729C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		897BA3D71F13D5BC00C9729C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				897BA3D61F13D5BC00C9729C /* MinionsDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		897BA3D81F13D5BC00C9729C /* MinionsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				897BA3D91F13D5BC00C9729C /* AppDelegate.swift */,
+				897BA3DB1F13D5BC00C9729C /* ViewController.swift */,
+				89F087591F13D7F300D33E17 /* XDEyeView.swift */,
+				897BA3DD1F13D5BC00C9729C /* Main.storyboard */,
+				897BA3E01F13D5BC00C9729C /* Assets.xcassets */,
+				897BA3E21F13D5BC00C9729C /* LaunchScreen.storyboard */,
+				897BA3E51F13D5BC00C9729C /* Info.plist */,
+			);
+			path = MinionsDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		897BA3D51F13D5BB00C9729C /* MinionsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 897BA3E81F13D5BC00C9729C /* Build configuration list for PBXNativeTarget "MinionsDemo" */;
+			buildPhases = (
+				897BA3D21F13D5BB00C9729C /* Sources */,
+				897BA3D31F13D5BB00C9729C /* Frameworks */,
+				897BA3D41F13D5BB00C9729C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MinionsDemo;
+			productName = MinionsDemo;
+			productReference = 897BA3D61F13D5BC00C9729C /* MinionsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		897BA3CE1F13D5BB00C9729C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = sephilex;
+				TargetAttributes = {
+					897BA3D51F13D5BB00C9729C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = BH3VZAU2B2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 897BA3D11F13D5BB00C9729C /* Build configuration list for PBXProject "MinionsDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 897BA3CD1F13D5BB00C9729C;
+			productRefGroup = 897BA3D71F13D5BC00C9729C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				897BA3D51F13D5BB00C9729C /* MinionsDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		897BA3D41F13D5BB00C9729C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				897BA3E41F13D5BC00C9729C /* LaunchScreen.storyboard in Resources */,
+				897BA3E11F13D5BC00C9729C /* Assets.xcassets in Resources */,
+				897BA3DF1F13D5BC00C9729C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		897BA3D21F13D5BB00C9729C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				897BA3DC1F13D5BC00C9729C /* ViewController.swift in Sources */,
+				89F0875A1F13D7F300D33E17 /* XDEyeView.swift in Sources */,
+				897BA3DA1F13D5BC00C9729C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		897BA3DD1F13D5BC00C9729C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				897BA3DE1F13D5BC00C9729C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		897BA3E21F13D5BC00C9729C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				897BA3E31F13D5BC00C9729C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		897BA3E61F13D5BC00C9729C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		897BA3E71F13D5BC00C9729C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		897BA3E91F13D5BC00C9729C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BH3VZAU2B2;
+				INFOPLIST_FILE = MinionsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sephilex.MinionsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		897BA3EA1F13D5BC00C9729C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BH3VZAU2B2;
+				INFOPLIST_FILE = MinionsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sephilex.MinionsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		897BA3D11F13D5BB00C9729C /* Build configuration list for PBXProject "MinionsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				897BA3E61F13D5BC00C9729C /* Debug */,
+				897BA3E71F13D5BC00C9729C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		897BA3E81F13D5BC00C9729C /* Build configuration list for PBXNativeTarget "MinionsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				897BA3E91F13D5BC00C9729C /* Debug */,
+				897BA3EA1F13D5BC00C9729C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 897BA3CE1F13D5BB00C9729C /* Project object */;
+}
