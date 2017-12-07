@@ -43,8 +43,8 @@ class ViewController: UIViewController {
         let pathL = UIBezierPath.init(ovalIn: CGRect(x: 138, y: 287, width: 45, height: 42))
         let pathR = UIBezierPath.init(ovalIn: CGRect(x: 193, y: 287, width: 45, height: 42))
 
-        collision.addBoundary(withIdentifier: "circle" as NSCopying, for: pathL)
-        collision.addBoundary(withIdentifier: "circle" as NSCopying, for: pathR)
+        collision.addBoundary(withIdentifier: "circle1" as NSCopying, for: pathL)
+        collision.addBoundary(withIdentifier: "circle2" as NSCopying, for: pathR)
         
         collision.addItem(self.leftEye)
         collision.addItem(self.rightEye)
